@@ -1,91 +1,94 @@
-.left-header ul {
+.header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-top: 10px;
     overflow: hidden;
+    font-family: arial, sans-serif;
+    font-size: 13px;
 }
 
-.left-header li {
+.header li {
     float: left;
 }
 
-.left-header li a {
-    padding: 8px;
+.header li a {
+    text-align: center;
+    padding: 10px 10px;
     text-decoration: none;
-    color: #000;
-    opacity: 0.75;
+    color: black; 
 }
 
-.left-header li a:hover{
+.header li a:hover {
     text-decoration: underline;
-}
-.right-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.right-header li {
-    float: right;
-}
-
-.right-header li a {
-    padding: 8px;
-    text-decoration: none;
-    color: #000;
-    opacity: 0.75;
 }
 
 .logo {
-    display: block;
     text-align: center;
+    position: relative;
+    padding-top: 109px;
 }
 
-.footer {
+.search-box {
+    position: relative;
+    text-align: center;
+    left: 33%;
+    padding: 10px;
+    width: 600px;
+    background: transparent;
+    border: 1px solid rgb(228, 224, 224);
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.search-box:hover {
+    box-shadow: 0px 1px 6px rgb(221, 220, 220);
+    outline: none;
+}
+
+.primary {
+    position: relative;
+    text-align: center;
+    left: 42%;
+    border: 1px solid #f2f2f2;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     background-color: #f2f2f2;
-    border-top: 1px solid;
+    color: #5F6368;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 0 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
-.left-footer ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        position: fixed;
-        bottom: 0;
-}
-
-.right-footer ul {
+.footer ul {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 52px;
+    overflow: hidden;
     list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        position: fixed;
-        bottom: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    background: #f2f2f2;
+    border-top: 2px solid #e4e4e4;
 }
 
-.right-footer li a {
-        padding: 8px;
-        text-decoration: none;
-        color: #000;
-        opacity: 0.75;
-}
-
-.left-footer li a {
-        padding: 8px;
-        text-decoration: none;
-        color: #000;
-        opacity: 0.75;
+.footer li {
+    float:left;
 }
 
 .footer li a {
-    padding: 8px;
+    text-align: center;
+    padding: 10px;
     text-decoration: none;
-    color: #000;
-    opacity: 0.75;
+    color: #5f6368;
+    line-height: 40px;
 }
 
-.footer li a:hover{
+.footer li a:hover {
     text-decoration: underline;
 }
